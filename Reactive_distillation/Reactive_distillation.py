@@ -19,7 +19,6 @@ x_w_int = 0.5
 
 t = range(0, 6, 1)
 
-@profile
 # Defining function for integration
 def batch(x_w, t):
 	W_t = -D*t + W_int
